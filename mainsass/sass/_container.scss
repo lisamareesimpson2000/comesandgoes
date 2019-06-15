@@ -1,0 +1,233 @@
+form{
+	display: block;
+	width:50%;
+	margin: auto;
+	padding-top: 10px;
+}
+
+/*// Homepage*/
+.container{
+	width: 80%;
+	height: 150px;
+	margin: auto;
+}
+
+.cont__logo{
+	width: 100%;
+	height: 305;
+	margin: auto;
+}
+
+/*// drinks page*/
+.line__horizontal--white{
+	width:100%;
+	height: 1px;
+	color: white;
+	
+}
+.drinkmenu{
+	width: 100%;
+	height: 280px;
+	background-color: $pcolor;
+	padding: 20px;
+	position: relative;
+}
+
+.tea__container{
+	width:100%;
+	height:300px;
+	background-color: $pcolor;
+	padding: 20px;
+
+
+}
+
+.footer__cont{
+	width: 100%;
+	height: 20%;
+	float: left;
+	margin: auto;
+}
+
+.footer__cont{
+	clear: left;
+}
+
+.btn__footer--drinks{
+	float: left;
+	width: 50%;
+}
+
+.btn__footer--drinks::after{
+	clear: both;
+}
+
+
+
+
+
+.container__tbl{
+	width:100%;
+	height: 45px;
+	background-color: $pcolor;
+}
+
+.table{
+	padding: 15px;
+	font-family: $fonttype;
+}
+
+/*// Breakfast brunch menu*/
+.container__menu{
+	width:100%;
+	height: 187.5px;
+}
+
+.container__menu:after{
+	clear: both;
+	display: table;
+	content: '';
+}
+
+.btn__top--half{
+	float: left;
+	width: 50%;
+
+}
+
+.btn__top--halfright{
+	padding-right: 300px;
+
+}
+
+/* your order */
+
+
+.order__select--box{
+	width: 80%;
+	height: 300px;
+	margin:auto;
+	padding-top: 50px;
+	// background-color:red;
+}
+
+.line__horizontal--peach{
+	width:100%;
+	height: 1px;
+	background-color: $pcolor;
+}
+
+.order__select--cont{
+	width:100%;
+	height: 100px;
+	display:block;
+	margin:auto;
+}
+// #selectbox__2{
+// 	margin-top: 20%;
+// }
+
+
+/* payment page */
+#fform {
+	display: block;
+	width:90%;
+	margin: auto;
+	padding-top: 10px;
+	
+}
+
+.form__container{
+	width: 100%;
+	height: 300px;
+	background-color:$pcolor;
+	font-family: $fonttype;
+	font-size: $mainsize;
+
+}
+
+.select__card{
+	width:90px;
+	font-family: $fonttype;
+}
+
+.expiry__form{
+	width: 100%;
+	height: 30px;
+	font-family: $fonttype;
+
+}
+.select{
+	width: 20%;
+	height: 20px;
+	float: left;
+	padding-right: 20px;
+}
+
+.expiry__form::after{
+	clear: both;
+}
+
+/*on it's way page*/
+.footer__cont--onway{
+	width: 100%;
+	height: 30%;
+	float: right;
+	margin: auto;
+}
+
+.cont__onway{
+	width: 100%;
+	height: 428px;
+	background-color: $pcolor;
+	padding: 20px;
+	position: relative;
+}
+
+
+/*feedback*/
+
+.container__feedback{
+	width: 80%;
+	height: 300px;
+	margin: auto;
+	
+	
+
+}
+
+.cont__fb{
+	width:20%;
+	height: 100px;
+	float: left;
+	padding-right: 20px;
+}
+
+
+.container__feedback::after{
+	clear: left;
+}
+
+.cont__fb--text{
+	width:80%;
+	height: 100px;
+	float: left;
+	padding-top: 15px;
+	padding-left: 15px;
+	font-family: $maintext;
+	font-size: $mainsize;
+}
+
+.cont__fb--text::after{
+	clear: both;
+}
+.fa-facebook{
+	width:60px;
+	height:62px;
+}
+
+
+
+
+
+

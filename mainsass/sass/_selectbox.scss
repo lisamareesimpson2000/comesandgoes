@@ -1,0 +1,250 @@
+textarea{
+	border: 2px solid $pcolor;
+	text-align: left;
+	width: 90%;
+	height: 80px;
+
+}
+
+/*drink*/
+.select__drink--coffee{
+	font-family: $maintext;
+	font-size: $mainsize;
+	float: left;
+	padding-left: 20%;
+	padding-top: 3%;
+	line-height: 200%;
+}
+
+.select__drink--tea{
+	font-family: $maintext;
+	font-size: $mainsize;
+	float: left;
+	padding-left: 20%;
+	padding-top: 3%;
+	line-height: 200%;
+}
+.bean{
+	width: 20%;
+	height: 60 px;
+	float: right;
+}
+
+.bean{
+	clear: right;
+}
+
+.cart1{
+	font-family: $maintext;
+	font-size: $mainsize;
+	margin-top: 150px;
+	margin-right: 100px;
+
+}
+
+/*Brunch*/
+.select__meal{
+	font-family: $maintext;
+	font-size: $mainsize;
+	padding: 2px;
+	float: right;
+}
+/* scroll */
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $scolor; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+}
+
+/* your order */
+
+.order__select--box{
+	width:50px;
+	height:50px;
+}
+
+.cart2__p--total{
+	width: 40%;
+	height: 50px;
+	font-family: $maintext;
+	font-size: $mainsize;
+	float:right;
+	margin-right: 30px;
+	padding-top: 35px;
+}
+
+.together{
+	font-family: $maintext;
+	font-size: $mainsize;
+	float:right;
+}
+
+.together .cart2__p--total{
+	clear:both;
+}
+
+/* brunch */
+.amount{
+	float:right;
+	padding-top:35px;
+	font-family: $maintext;
+	font-size: $mainsize;
+	margin-right:200px;
+}
+
+.amount::after{
+	clear:both;
+}
+
+/*payment*/
+.payment__cont{
+	background-color: $pcolor;
+	padding-top: 20px;
+}
+.together__payment{
+	font-family: $maintext;
+	font-size: $mainsize;
+	background-color: $pcolor;
+	padding: 15px;
+}
+
+.cart4__p--total{
+	width: 40%;
+	height: 50px;
+	font-family: $maintext;
+	font-size: $mainsize;
+	float:right;
+	margin-right: 30px;
+	padding-top: 35px;
+}
+
+/*feedback*/
+
+.feedback__form{
+	font-family: $maintext;
+	font-size: $mainsize;
+	padding-top: 30px;
+	width: 100%;
+	height: 400px;
+}
+
+.custom-select{
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	padding-top: 20px;
+	font-family: $maintext;
+	font-size: $mainsize;
+}
+
+.form__select{
+	width: 100px;
+	height: 20px;
+	float: left;
+	border: 2px solid $pcolor;
+}
+
+.fa-star{
+	opacity: 0.3;
+}
+.checked {
+    color: orange;
+}
+
+.code{
+	width: 50%;
+	text-align: left;
+
+}
+
+/*meal progress*/
+
+.ui-progressbar {
+    position: relative;
+
+  }
+.progress-label {
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+ }
+
+#progressbar{
+	width: 70%;
+    height:50px;
+    margin: auto;
+    margin-top:40%
+}
+
+/* ID */
+#leaf{
+	display: inline-block;
+    position: absolute;
+    padding-left: 300px;
+    padding-top: 50px;
+	float: right;
+
+}
+
+#leaf::after{
+	clear: both;
+}
+
+#cart1{
+	float:right;
+	margin-right: 50%;
+	margin-top: 40px;
+}
+
+#cart__4{
+	font-family: $maintext;
+	font-size: $mainsize;
+	padding-top:5%;
+	padding-left: 25%;
+	padding-bottom:5%;
+}
+
+#cart2{
+	padding-left: 20%;
+	padding-top: 20%;
+	padding-bottom: 30%;
+}
+
+#cont__label--payment{
+	width: 100%;
+	height:50px;
+	text-align: center;
+	background-color: $pcolor;
+	padding-top:40px;
+	}
+
+#star__span{
+	width:80%;
+	height:50px;
+	margin:auto;
+	padding-bottom:22%;
+}
+
+
+
+
+
+
+
+

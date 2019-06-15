@@ -1,0 +1,169 @@
+/*/ipad*/
+@media screen and (min-width: 500px){
+	
+.container{
+	display: block;
+	width: 80%;
+	height: 1024px;
+	margin-left: auto;
+  	margin-right: auto;
+	
+	}
+
+.container__menu{
+	width: 100%;
+	height: 187.5px;
+	}
+.container__menu::after{
+	clear:both;
+}
+.btn__top--half{
+	width: 50%;
+	float: left;
+	}
+
+
+ /* drinks */
+
+.btn__gold--add2order{
+	background-color: $scolor;
+	width: 187.5px;
+	height: 50px;
+	font-size: $bfsize;
+	color: white;
+	display: block;
+	float: right;
+
+	}
+
+.btn__top--peach{
+	width: 100%;
+	height: 187.5px;
+	background-color: $pcolor;
+	border: none;
+	font-size: $menufsize;
+	font-family: $menuftype;
+	color: $scolor;
+	margin:auto;
+	
+	}
+
+
+.btn__top--halfpeach{
+	width: 100%;
+	height: 187.5px;
+	display: block;
+	background-color: $pcolor; 
+	background-color: rgba(242,228,205,0.5);
+	opacity:0.5;
+	border: none;
+	font-size: $menufsize;
+	font-family: $menuftype;
+	color: $scolor; 
+	
+
+	}
+
+.bean{
+	width: 8%;
+	height: auto;
+	float: right;
+	margin-right:100px;
+	}
+
+.bean{
+	clear: right;
+	}
+
+#cart1{
+	width: 50px;
+	height:50px;
+	font-family: $maintext;
+	font-size: $mainsize;
+	margin-right:30%;
+	margin-top: 40px;
+	}
+
+#leaf{
+	padding-left: 600px;
+
+	}
+
+/* brunch */
+
+.menu{
+	width: 100%;
+	height: 740px;
+	background-color: $pcolor;
+	padding: 20px;
+	margin: auto;
+	overflow: hidden;
+	}
+
+/*your order*/
+
+.order__select--cont{
+	width:60%;
+	height: 100px;
+	display: block;
+	margin-right:100px;
+
+}
+
+#cart2{
+	padding-left: 20%;
+	padding-top: 10%;
+	padding-bottom: 18%;
+}
+
+.img1{
+	width: 187.5px;
+	height: 187.5px;
+	margin-left: 25%;
+}
+.tab__heading{
+	width:33.33%;
+	height: 20px;
+	color: $scolor;
+	font-size: $bfsize;
+	padding-top: 80px;
+	margin-right: 80px;
+}
+
+/* payment */
+
+#cont__label--payment{
+	width: 100%;
+	height:50px;
+	text-align: center;
+	background-color: $pcolor;
+	padding-top:40px;
+	}
+
+/*meal progress*/
+.footer__button--feedback{
+	width: 187.5px;
+	height: 50px;
+	display: block;
+	background-color: white;
+	border: 2px solid $pcolor;
+	color: $scolor;
+	font-size: $bfsize;
+	margin-top: 100%;
+	margin-left: 45%;
+}
+
+#mainlogo{
+	display: block;
+  	width: 60% ;
+  	height: 600px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	}
+
+#star__span{
+	width:40%;
+	padding-bottom:10%;
+}
+
+}

@@ -1,0 +1,83 @@
+
+
+.drink__hd{
+	font-family: $menuftype;
+	color: $scolor;
+	font-size: 0.6em;
+	padding-left: 20%;
+	padding-top: 2%;
+
+
+}
+.tea__hd{
+	font-family: $menuftype;
+	color: $scolor;
+	font-size: 0.6em;
+	padding-left: 20%;
+	padding-top: 2%;
+}
+
+/*// Brunch page*/
+.menu{
+	width: 100%;
+	height: 812px;
+	background-color: $pcolor;
+	padding: 20px;
+	overflow: scroll;
+}
+
+.meal__hd h2{
+	font-family: $maintext;
+	font-size: $mainsize;
+
+}
+
+
+
+.body{
+	font-family: $maintext;
+	font-size: $mainsize;
+}
+
+.menu--special{
+	font-family: $maintext;
+	font-size: $mainsize;
+	color: $scolor;
+}
+/* new order */
+
+.body__order{
+	font-family: $maintext;
+	font-size: $mainsize;
+	text-align:center;
+	width:100%;
+	height:50px;
+}
+
+
+/*onitsway page*/
+
+#onway{
+	width: 50%;
+	font-family: $fonttype;
+	color: white;
+	font-size: 2.5em;
+	margin: auto;
+	padding-top: 100px;
+	text-align: center;
+
+}
+
+#menu__h2--special{
+	font-family: $maintext;
+	color: $scolor;
+}
+
+#p__academy{
+	font-family: $maintext;
+	font-size: $mainsize;
+	text-align:center;
+	width:100%;
+	height:50px;
+	padding-top: 55px;
+}

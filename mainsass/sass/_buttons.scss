@@ -1,0 +1,188 @@
+/*Drinks buttons*/
+@mixin buttonstyle($bc, $tc){
+	width: 187.5px;
+	height: 50px;
+	font-size: $bfsize;
+	display: block;
+	background-color: $bc;
+	color: $tc;
+}
+.btn__feedback--back{
+	
+	@include buttonstyle(white, $scolor);
+
+	border: 2px solid $pcolor;
+
+}
+
+.btn__gold--add2order{
+	// color: white;
+
+ @include buttonstyle($scolor, white);
+
+}
+
+
+/*brunch buttons*/
+
+.btn__top--peach{
+	width: 100%;
+	height: 187.5px;
+	display: block;
+	background-color: $pcolor;
+	border: none;
+	font-size: $menufsize;
+	font-family: $menuftype;
+	color: $scolor;
+
+}
+
+
+.btn__top--halfpeach{
+	width: 100%;
+	height: 187.5px;
+	display: block;
+	background-color: rgba(242,228,205,0.5);
+	opacity:0.5;
+	border: none;
+	font-size: $menufsize;
+	font-family: $menuftype;
+	color: $scolor; 
+
+}
+
+
+.btn__btm--white{
+	height: 10px;
+	width:30%;
+	text-align: center;
+	margin: auto;
+
+}
+
+.btn__btm--peach{
+	
+}
+
+
+
+
+/* Home */
+
+.btn__btm--gold{
+	background-color: $scolor;
+	width: 200px;
+	height: 50px;
+	font-size: $bfsize;
+	color: white;
+	display: block;
+	margin: 20px auto;
+	padding: 20px 0;
+}
+
+.btn__feedback{
+	width: 187.5px;
+	height: 50px;
+	display: block;
+	background-color: white;
+	border: 2px solid $pcolor;
+	color: $scolor;
+	font-size: $bfsize;
+	margin: auto;
+	margin-top: 150px;
+}
+
+/*payment*/
+
+.submit__gold{
+	width: 50px;
+	font-family: $fonttype;
+	font-size: $mainsize;
+	background-color: $scolor;
+}
+
+
+/*on it's way*/
+
+.btn__footer--onway{
+	float: right;
+	width: 50%;
+}
+
+.btn__footer--onway::after{
+	clear: both;
+}
+
+/*feedback*/
+
+.btn__top--littlelogo{
+	width: 100%;
+	height: 187.5px;
+	display: block;
+	background-color: rgba(242,228,205,0.5);
+	border: none;
+	font-size: $menufsize;
+	font-family: $menuftype;
+	color: $scolor;
+
+}
+
+
+.btn__top--fdback{
+	width: 100%;
+	height: 187.5px;
+	display: block;
+	background-color: white;
+	border: none;
+	font-size: $menufsize;
+	font-family: $menuftype;
+	color: $scolor; 
+}
+
+.fa {
+  	padding: 20px;
+  	font-size: 30px;
+  	width: 30px;
+  	text-align: center;
+  	text-decoration: none;
+  	margin: 5px 2px;
+ 	 border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  	background: #3B5998;
+  	color: white;
+}
+
+.fback__submit{
+	width: 150px;
+	height:10px;
+	background-color: $scolor;
+	border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: auto;
+    cursor: pointer;
+    display: block;
+}
+
+/* meal progress */
+
+.footer__button--feedback{
+	width: 187.5px;
+	height: 50px;
+	display: block;
+	background-color: white;
+	border: 2px solid $pcolor;
+	color: $scolor;
+	font-size: $bfsize;
+	margin-top: 100%;
+
+}
+
+

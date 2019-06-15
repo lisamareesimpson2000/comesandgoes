@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+}
+a{
+	text-decoration: none;
+}
+.img1{
+	width: 187.5px;
+	height: 187.5px;
+
+}
+.tab__heading{
+	color: $scolor;
+	font-size: $bfsize;
+	float:right;
+	padding:10%;
+	padding-top: 22%;
+}
+.tab__heading{
+	clear: both;
+}
+
+#greeting{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 50px;
+	color: $fontcolor;
+	font-family: $fonttype;	
+	font-size: 1.5em;
+	text-align: center;
+}
+  #mainlogo{
+  	display: block;
+  	width: 80%;
+  	height: 380px;
+	margin-left: auto;
+  	margin-right: auto;
+    }
+
+  #bye{
+	width: 100%;
+	margin: auto;
+	color: $fontcolor;
+	font-family: $fonttype;	
+	font-size: 1.5em;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
